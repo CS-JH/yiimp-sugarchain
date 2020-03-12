@@ -1143,7 +1143,7 @@ int yespower_free_local(yespower_local_t *local)
 	return 0;
 }
 
-void yespower_hash(const char* input, char* output, uint32_t len)
+void yespowersugar_hash(const char* input, char* output, uint32_t len)
 {
     yespower_params_t yespower_1_0_sugarchain = {
         .version = YESPOWER_1_0,
